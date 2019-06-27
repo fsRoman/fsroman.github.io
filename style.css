@@ -703,7 +703,7 @@ footer p{
 	.btn-top{
 		position: fixed;
 		top: 88%;
-		left: 88%;
+		left: 84%;
 	}
 	.top-slide {
     	padding-top: 40px;
@@ -711,7 +711,7 @@ footer p{
 		background-size: cover;
 	}
 	.top-slide h2{
-		font-size: 32px;
+		font-size: 30px;
 	}
 	.top-slide p{
 		font-size: 16px;
@@ -732,20 +732,24 @@ footer p{
 		display: -ms-flex;
 		display: -o-flex;
 		display: flex;
-		-webkit-flex-direction: column;
-		-moz-flex-direction: column;
-		-ms-flex-direction: column;
-		-o-flex-direction: column;
-		flex-direction: column;
+		flex-direction: row;
+		flex-wrap: wrap;
 		justify-content: space-between;
+	}
+	.card{
+		min-width: 100%;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+	.top-card{
+		width: 100%
+	}
+	.top-card img{
+		width: 100%
 	}
 	.bottom-card{
 		margin: 0 auto;
-	}
-	.card{
-		max-width: 250px;
-		margin: 0 auto;
-
+		width: 100%;
 	}
 	.posts{
 		width: 90%;
