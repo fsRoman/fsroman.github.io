@@ -30,16 +30,15 @@ $(document).ready(function(){
   	responsive:{
   		0:{
   			items:3,
-  			dots:true,
-  			dotsData:true
+  			dots:true
   		},
-  		420:{
+  		560:{
   			items:5,
   			dots:true,
   			autoplay:true,
   			autoplayTimeout:2500
   		},
-  		860:{
+  		960:{
   			items:7,
   			dots:true,
   			autoplay:true,
